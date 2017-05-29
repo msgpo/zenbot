@@ -9,7 +9,7 @@ c.mongo.username = null
 c.mongo.password = null
 
 // default selector. only used if omitting [selector] argument from a command.
-c.selector = 'gdax.BTC-USD'
+c.selector = 'gdax.ETH-USD'
 // name of default trade strategy
 c.strategy = 'trend_ema'
 
