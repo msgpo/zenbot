@@ -9,7 +9,7 @@
   "scripts": {
     "sim": "./zenbot.sh sim --paper --currency_capital 6000",
     "start": "./zenbot.sh trade GDAX.eth-usd --paper --currency_capital 6000",
-    "backtest": "./zenbot.sh backfill"
+    "backfill": "./zenbot.sh backfill --days 90"
   },
   "dependencies": {
     "codemap": "^1.3.1",
